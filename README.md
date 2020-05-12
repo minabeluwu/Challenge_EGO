@@ -1,4 +1,4 @@
-> #Para inicializar el proyecto:
+#Para inicializar el proyecto:
 
 >>npm install
  
