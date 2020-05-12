@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "90d2b119efb93395fa7dd30acc1b0c81",
+    "revision": "cd827b9228dd45ebab7fa5c57c2c86b0",
     "url": "/Challenge_EGO/index.html"
   },
   {
-    "revision": "e1b59eb462e0d31420cc",
+    "revision": "2b77b5ad1d478507f158",
     "url": "/Challenge_EGO/static/css/main.488924c5.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Challenge_EGO/static/js/2.87dc0e79.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e1b59eb462e0d31420cc",
-    "url": "/Challenge_EGO/static/js/main.badeef45.chunk.js"
+    "revision": "2b77b5ad1d478507f158",
+    "url": "/Challenge_EGO/static/js/main.0707de76.chunk.js"
   },
   {
     "revision": "36750f103ece8b7bcd26",
