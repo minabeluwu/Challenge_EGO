@@ -1,0 +1,143 @@
+.header {
+    border-bottom: 1px solid #ccc;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-container {
+    width: 500px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-logo {
+    width: 50px;
+    margin: 20px;
+  }
+  .header-link {
+    display: none;
+  }
+  
+  .header-link:focus{
+    height: 90px;
+    width: 150px;
+    margin: 0 30px 0 30px;
+    color: #eb0a1e;
+    border-bottom: 4px solid #d0021b;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+/* ---------------------------- */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+
+  width: 36px;
+  height: 30px;
+  margin-right: 20px;
+  right: 0;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+
+  margin: 30px 20px 0 0;
+
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #fff;
+  margin-top: 30px;
+
+  padding: 15px; 
+
+  height: 100%;
+  box-sizing: border-box;
+  overflow: none;
+  
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 20px 30px 10px 10px;
+
+  border: none;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* --------------------------- */
+
+.menu-link {
+  text-decoration: none;
+  color: #000;
+  margin: 10px 0;
+
+  text-align: right;
+  border: none;
+}
+
+
+  @media only screen and (min-width: 862px) {
+    .header-link {
+      display: inline-block;
+      font-weight: bold;
+      font-size: 18px;
+      text-decoration: none;
+      color: black;
+  
+      height: 80px;
+  
+      display: flex;
+      align-items: center;
+    }
+}

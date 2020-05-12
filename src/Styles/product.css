@@ -1,0 +1,47 @@
+.product {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .product-container {
+    width: 300px;
+    margin: 30px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-title {
+    font-size: 30px;
+  }
+  
+  
+  .product-link {
+    text-decoration: none;
+    color: #fff;
+  
+    margin-top: 20px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: black;
+  }
+  .product-content {
+    font-size: 20px;
+  
+    margin-bottom: 20px;
+  }
+  
+  .product-img {
+    width: 100%;
+  }
+  @media only screen and (min-width: 862px) {
+
+    .results {
+      margin-top: 30px;
+      
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }

@@ -1,0 +1,33 @@
+.group-2 {
+    background-color: #f7f7f7;
+   
+    overflow-x: scroll;
+    height: 50vh;
+    
+  }
+  .group-2-content {
+    width: 150%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .group-2-container {
+    width: 300px;
+    margin: 10px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+  }
+  .group-2-img {
+    border-radius: 10px;
+    
+    width: 90%;
+    height: 100px;
+  }
+  .group-2-title {
+    font-size: 18px;
+  }
